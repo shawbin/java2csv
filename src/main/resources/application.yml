@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: s915781694@163.com
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true

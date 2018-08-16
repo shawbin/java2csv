@@ -36,6 +36,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- 邮件发送 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/net.sourceforge.javacsv/javacsv
              csv读写工具　-->
         <dependency>
@@ -43,6 +49,7 @@
             <artifactId>javacsv</artifactId>
             <version>2.0</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.opencsv/opencsv csv读写工具
         　　　可以通过注解　将实体映射到csv文件　-->
         <dependency>
